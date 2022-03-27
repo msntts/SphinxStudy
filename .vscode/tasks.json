@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "create-sphinx-docker-image",
+            "type": "shell",
+            "command": "docker image build -t sphinx:latest ${workspaceFolder}\\docker",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "sphinx-quickstart",
+            "type": "shell",
+            "command": "docker run --rm -it -v '${workspaceFolder}\\project:/docs' sphinx:latest sphinx-quickstart",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "sphinx-build-slide",
+            "type": "shell",
+            "command": "docker run --rm -it -v '${workspaceFolder}\\project:/docs' sphinx:latest make revealjs",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}
