@@ -1,20 +1,26 @@
-.. Study-Sphinx documentation master file, created by
-   sphinx-quickstart on Sun Mar 27 09:17:13 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+============
+Sphinx勉強会
+============
 
-Welcome to Study-Sphinx's documentation!
-========================================
+はじめに
+========
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+* Sphinx?でかいやつですか？
+* マークアップ言語？Markdown一択でしょ(笑)
 
+::
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+           (⌒)
+       ／￣｜｜￣＼
+     (⌒／ﾞ└┘ﾞﾞ＼⌒)
+     ／ｲ ＿    ＿｜＼
+   ／__|ヽ･〉〈･ﾉ｜__＼
+  ｜___|    ▼   ｜___｜ < お前それエジプトでも同じ事言えんの？
+   ＼__ヽ ＿人＿ /___／
+    ／  ヽ `⌒′/   ＼
+   ｜     ﾞﾞﾞﾞﾞﾞ     ｜
+   ｜  |          |  ｜
+   ｜  `――――――⌒)
+   (＼＿＿＿＿＿＿＿＿)
+   （⌒             ノ
+     ￣|￣￣￣￣￣Ｔ
